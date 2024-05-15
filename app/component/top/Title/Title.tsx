@@ -3,7 +3,7 @@ import styles from "./title.module.css";
 
 const Title = () => {
   return (
-    <div className={styles.div}>
+    <div className={styles.div} id="top">
       <Image
         src="/svg/title.svg"
         alt="Logo"

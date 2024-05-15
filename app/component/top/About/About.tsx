@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const About = () => {
   return (
-    <div className={styles.div}>
+    <div className={styles.div} id="about">
       <Image
         src={"/svg/about.svg"}
         alt="About"

@@ -5,7 +5,7 @@ const Contact = () => {
   const mailUser = "keisho.n.dev";
   const mailDomain = "gmail.com";
   return (
-    <div className={styles.div}>
+    <div className={styles.div} id="contact">
       <Image
         src={"/svg/contact.svg"}
         alt="Contact"

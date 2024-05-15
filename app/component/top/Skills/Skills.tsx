@@ -5,7 +5,7 @@ import SkillList  from "./SkillList";
 
 const Skills = () => {
   return (
-    <div className={styles.div}>
+    <div className={styles.div} id="skills">
       <Image
         src={"/svg/skills.svg"}
         alt="Skills"

@@ -5,7 +5,7 @@ import WorksData from "@/Data/Works";
 
 const Works = () => {
  return (
-    <div className={styles.container}>
+    <div className={styles.container} id="works">
       <Image
         src={"/svg/works.svg"}
         alt="Works"

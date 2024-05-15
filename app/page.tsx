@@ -5,8 +5,12 @@ import About from "./component/top/About/About";
 import Works from "./component/top/Works/Works";
 import Skills from "./component/top/Skills/Skills";
 import Contact from "./component/top/Contact/Contact";
+import ToTop from "./component/ui/ToTop/ToTop";
 
 export default function Home() {
+
+
+
   return (
     <div className={styles.container}>
       <Title />
@@ -18,6 +22,7 @@ export default function Home() {
       <Skills />
       <Arrow />
       <Contact />
+      <ToTop />
     </div>
   );
 }
