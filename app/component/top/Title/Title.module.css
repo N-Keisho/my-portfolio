@@ -1,0 +1,19 @@
+.div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    width: 100%;
+}
+
+.h1 {
+    font-size: 110px;
+    margin: 60px;
+}
+
+@media screen and (max-width: 768px) {
+    .h1 {
+        font-size: 60px;
+        margin: 30px;
+    }    
+}

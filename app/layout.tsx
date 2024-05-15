@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { DotGothic16 } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const dotGothic16 = DotGothic16 ({weight: "400", subsets: ["latin"]});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -15,8 +15,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="jp">
+      <body className={dotGothic16.className}>{children}</body>
     </html>
   );
 }
