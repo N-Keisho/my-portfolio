@@ -1,11 +1,11 @@
 "use client";
-import styles from "./Header.module.css";
-import { useEffect, useState } from "react";
+import styles from "./HeaderTop.module.css";
+import { useState } from "react";
 import DehazeIcon from "@mui/icons-material/Dehaze";
 import { Drawer } from "@mui/material";
 import Image from "next/image";
 
-const Header = () => {
+const HeaderTop = () => {
   return (
     <header className={styles.header}>
       <nav>
@@ -16,7 +16,7 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default HeaderTop;
 
 const DefaultNavigation = () => {
   return (

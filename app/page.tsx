@@ -6,6 +6,7 @@ import Works from "./component/top/Works/Works";
 import Skills from "./component/top/Skills/Skills";
 import Contact from "./component/top/Contact/Contact";
 import ToTop from "./component/ui/ToTop/ToTop";
+import HeaderTop from "./component/top/HeaderTop/HeaderTop";
 
 export default function Home() {
 
@@ -13,6 +14,7 @@ export default function Home() {
 
   return (
     <div className={styles.container}>
+      <HeaderTop />
       <Title />
       <Arrow />
       <About />

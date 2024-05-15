@@ -4,7 +4,7 @@ export interface Work {
     thubmnail: string,
     created_at: string,
     tag: string[],
-    discription: string,
+    description: string,
     period: string,
     tech:string[],
     links: Link[]

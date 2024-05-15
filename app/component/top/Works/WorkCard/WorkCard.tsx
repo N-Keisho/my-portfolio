@@ -6,7 +6,7 @@ import Link from "next/link";
 const WorkCard = ({ work }: { work: Work }) => {
   const ears = `/piskel/ears/ears_${work.id}.png`;
   return (
-    <Link href={`/works/${work.id}`} legacyBehavior>
+    <Link href={`/work/${work.id}`} legacyBehavior>
       <div className={styles.container}>
         <Image
           src={ears}

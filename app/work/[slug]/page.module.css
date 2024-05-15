@@ -1,0 +1,45 @@
+.container {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.div {
+  width: 100%;
+  max-width: 700px;
+}
+
+.div h1{
+    margin: 0;
+    padding: 0;
+}
+
+.tag {
+    margin: 0;
+    color: gray;
+}
+
+.description {
+    margin-top: 0.5rem;
+    text-indent: 1em;
+}
+
+.keys {
+    margin-top: 0.5rem;
+    text-align: right;
+}
+
+.key p {
+    margin: 0;
+    padding: 0;
+}

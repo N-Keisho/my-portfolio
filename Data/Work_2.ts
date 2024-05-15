@@ -6,7 +6,7 @@ const Work2: Work = {
     thubmnail: '/works/1.png',
     created_at: '2024-05-15',
     tag: ['個人作成'],
-    discription: '高校時代に作成した思い出の作品です．当時はプログラミングなどやったこともなく，わけもわからぬまま作成していました．',
+    description: '高校時代に作成した思い出の作品です．当時はプログラミングなどやったこともなく，わけもわからぬまま作成していました．',
     period: '2週間',
     tech: ['HTML', 'CSS'],
     links: [
