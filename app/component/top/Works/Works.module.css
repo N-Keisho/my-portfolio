@@ -17,3 +17,10 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
 }
+
+
+@media screen and (max-width: 768px){
+  .image {
+    width: 50%;
+  }
+}

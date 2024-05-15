@@ -8,7 +8,7 @@ const Skills = () => {
     <div className={styles.div}>
       <Image
         src={"/svg/skills.svg"}
-        alt="About"
+        alt="Skills"
         className={styles.image}
         width={100}
         height={100}

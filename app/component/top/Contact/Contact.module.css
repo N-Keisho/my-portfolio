@@ -1,0 +1,39 @@
+.div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+  }
+  
+  .image {
+    object-fit: contain;
+    width: 30%;
+    height: auto;
+  }
+
+  .mail {
+    margin-top: 20px;
+    width: 60%;
+  }
+
+  .mail_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.mail_container:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+  @media screen and (max-width: 768px){
+    .image {
+      width: 50%;
+    }
+
+    .mail {
+      width: 80%;
+    }
+  }

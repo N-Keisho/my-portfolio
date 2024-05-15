@@ -4,6 +4,7 @@ import Arrow from "./component/top/Arrow/Arrow";
 import About from "./component/top/About/About";
 import Works from "./component/top/Works/Works";
 import Skills from "./component/top/Skills/Skills";
+import Contact from "./component/top/Contact/Contact";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Arrow />
       <Skills />
       <Arrow />
+      <Contact />
     </div>
   );
 }

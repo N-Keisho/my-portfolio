@@ -17,3 +17,10 @@
     margin: 0 auto;
     max-width: 1000px;
 }
+
+
+@media screen and (max-width: 768px){
+  .image {
+    width: 50%;
+  }
+}
