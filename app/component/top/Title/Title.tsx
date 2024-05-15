@@ -2,12 +2,17 @@ import Image from "next/image";
 import styles from "./title.module.css";
 
 const Title = () => {
-    return (
-        <div className={styles.div}>
-            <Image src="/logo/logo.png" alt="Logo" width={400} height={400} />
-            <h1 className={styles.h1}>KEISHO<br/>NAGAE</h1>
-        </div>
-    );
+  return (
+    <div className={styles.div}>
+      <Image
+        src="/svg/title.svg"
+        alt="Logo"
+        className={styles.image}
+        width={500}
+        height={500}
+      />
+    </div>
+  );
 };
 
 export default Title;

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { DotGothic16 } from "next/font/google";
 import "./globals.css";
 
-const dotGothic16 = DotGothic16 ({weight: "400", subsets: ["latin"]});
+const dotGothic16 = DotGothic16({ weight: "400", subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Create Next App",
