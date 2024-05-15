@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
       <p>© Keisho Nagae All rights reserved.</p>
-      <Link href="https://github.com/N-Keisho">
+      <Link href="https://github.com/N-Keisho" target="_blank">
         <Image
           src={"/github-mark/github-mark-white.svg"}
           alt="GitHub"

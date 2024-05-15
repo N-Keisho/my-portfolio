@@ -28,7 +28,7 @@ const About = () => {
         </p>
         <p>
           - GitHub:{" "}
-          <Link href="https://github.com/N-Keisho">
+          <Link href="https://github.com/N-Keisho" target="_blank">
             https://github.com/N-Keisho
           </Link>
         </p>

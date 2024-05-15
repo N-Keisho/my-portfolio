@@ -7,6 +7,7 @@
     height: 30px;
     padding: 0;
     top : 0;
+    left: 0;
     mix-blend-mode: difference;
     color: #fff;
 }
@@ -33,7 +34,7 @@
 
 .mobileNav{
     display:none;
-    margin: 10px;
+    margin: 5px;
     margin-top: 20px;
 }
 

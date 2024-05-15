@@ -1,5 +1,6 @@
 .container {
   margin: 0 auto;
+  margin-top: 20px;
   width: 90%;
   max-width: 1250px;
   display: flex;
@@ -8,15 +9,22 @@
   align-items: center;
 }
 
+.ears {
+    width: 20%;
+    max-width: 100px;
+    height: calc(20% * 0.5);
+    object-fit: cover;
+}
+
 .image {
     width: 100%;
-    max-width: 700px;
+    max-width: 600px;
     margin: 0 auto;
 }
 
 .div {
   width: 100%;
-  max-width: 700px;
+  max-width: 600px;
 }
 
 .div h1{
@@ -30,8 +38,15 @@
 }
 
 .description {
-    margin-top: 0.5rem;
+    margin-top: 10px;
+    margin-bottom: 5px;
     text-indent: 1em;
+}
+
+.explanation {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .keys {
@@ -39,7 +54,51 @@
     text-align: right;
 }
 
-.key p {
-    margin: 0;
+.keys p {
+    margin-top: 5px;
     padding: 0;
+}
+
+.values {
+    margin-top: 0.5rem;
+    text-align: left;
+}
+
+.values p {
+    margin-top: 5px;
+    padding: 0;
+    text-indent: 1em;
+}
+
+.set {
+    display: flex;
+}
+
+.set p {
+    margin-top: 1rem;
+    padding: 0;
+}
+
+.key_p {
+    margin-top: 1rem;
+    padding: 0;
+    text-indent: 0.5em;
+    width: 80px;
+    text-align: right;
+}
+
+.value_p {
+    margin-top: 1rem;
+    padding: 0;
+    text-indent: 0.5em;
+}
+
+@media (max-width: 768px) {
+    .key_p{
+        font-size: 0.8rem;
+    }
+
+    .value_p{
+        font-size: 0.8rem;
+    }
 }

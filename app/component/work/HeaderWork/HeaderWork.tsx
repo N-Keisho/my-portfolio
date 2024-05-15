@@ -5,7 +5,7 @@ const HeaderWork = () => {
   return (
     <header className={styles.header}>
       <nav>
-        <Link href="/">
+        <Link href="/#works">
           <Image
             src={"/logo/logo.png"}
             alt="Logo"
