@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.container:hover {
+    opacity: 0.7;
+}
+
+.container a {
+    text-decoration: none;
+    color: black;
+}
+
+.ears {
+    width: 80px;
+    height: calc(80px * 0.5);
+    object-fit: cover;
+}
+
+.centence {
+    width: 250px;
+}
+
+.centence h3{
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 0;
+}
+
+.centence p {
+    margin: 0;
+    color: gray;
+}
+
+.image {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    background-position: 0 100%;
+}

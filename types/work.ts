@@ -1,4 +1,5 @@
 export interface Work {
+    id: number,
     title: string,
     thubmnail: string,
     created_at: string,
