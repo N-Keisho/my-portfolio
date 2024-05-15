@@ -1,0 +1,88 @@
+.div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  min-height: 85vh;
+}
+
+.image {
+  object-fit: contain;
+  width: 30%;
+  height: auto;
+}
+
+.console_out {
+  width: 80%;
+  background-color: black;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.console_in {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+  margin: 0;
+  border: 3px solid white;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.console_in h3 {
+  margin: 0;
+}
+
+.console_in p {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.skill_box {
+  margin: 10px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+
+.skill_name {
+  width: 100%;
+  text-align: right;
+}
+
+.skill_level {
+  width: 100%;
+  text-align: left;
+  text-indent: 10px;
+}
+
+.description {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.description p {
+    margin: 0;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .image {
+    width: 50%;
+  }
+
+  .description p{
+    text-align: left;
+  }
+    
+}
