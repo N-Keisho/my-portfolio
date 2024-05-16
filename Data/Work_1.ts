@@ -2,7 +2,7 @@ import { Work } from "@/types/work";
 
 const Work1: Work = {
   id: 1,
-  title: "高校の文化祭用ホームページ",
+  title: "文化祭用ホームページ",
   thubmnail: "/works/1.png",
   created_at: "2024-05-15",
   tag: ["個人作成", "文化祭"],
