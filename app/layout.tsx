@@ -5,7 +5,7 @@ import Footer from "./component/base/Footer/Footer";
 const dotGothic16 = DotGothic16({ weight: "400", subsets: ["latin"] });
 
 const siteName = "Keisho Nagae's Portfolio Site";
-const description = "エンジニアを目指す大学3年生，永江恵尚のポートフォリオサイトです．作成した制作物や身に着けたスキルを掲載しています．";
+const description = "エンジニアを目指す大学3年生，永江恵尚のポートフォリオサイトです．これまでに手掛けた制作物や身に着けたスキルをまとめました．";
 const baseUrl = 'https://n-keisho.com';
 
 export const metadata = {
