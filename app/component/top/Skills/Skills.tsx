@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "./Skills.module.css";
 import { ReactNode } from "react";
-import SkillList  from "./SkillList";
+import SkillList from "./SkillList";
 
 const Skills = () => {
   return (
@@ -15,17 +15,15 @@ const Skills = () => {
       />
       <div className={styles.console_out}>
         <div className={styles.console_in}>
-          {
-            Object.entries(SkillList).map(([key, value]) => (
-              <SkilBox key={key} title={key} list={value} />
-            ))
-          }
+          {Object.entries(SkillList).map(([key, value]) => (
+            <SkilBox key={key} title={key} list={value} />
+          ))}
         </div>
       </div>
       <div className={styles.description}>
-        <p>☆：触れたことがある</p>
-        <p>☆☆：使える気がする</p>
         <p>☆☆☆：得意気になっている</p>
+        <p>☆☆：使える気がする</p>
+        <p>☆：触れたことがある</p>
       </div>
     </div>
   );
@@ -33,7 +31,13 @@ const Skills = () => {
 
 export default Skills;
 
-const SkilBox = ({ title, list }: { title: string; list: Record<string, ReactNode> }) => {
+const SkilBox = ({
+  title,
+  list,
+}: {
+  title: string;
+  list: Record<string, ReactNode>;
+}) => {
   return (
     <div className={styles.skill_box}>
       <h3>- {title} -</h3>
