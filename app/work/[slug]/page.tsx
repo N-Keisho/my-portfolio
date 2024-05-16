@@ -17,23 +17,23 @@ export function generateMetadata({
       title: "ページが見つかりません",
       description: "ページが見つかりません",
       openGraph: {
-        images: [`${url}/logo/logo.png`],
+        images: [`${url}/logo/logo_white.png`],
       },
     };
 
   return {
     title: work.title,
     description: work.description,
-    image: work.thubmnail,
+    image: `${url}/work.thubmnail`,
     openGraph: {
       title: work.title,
       description: work.description,
-      image: work.thubmnail,
+      image: `${url}/work.thubmnail`,
     },
     twitter: {
       title: work.title,
       description: work.description,
-      image: work.thubmnail,
+      image: `${url}/work.thubmnail`,
     },
   };
 }

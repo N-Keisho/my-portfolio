@@ -12,7 +12,7 @@ export const metadata = {
   metadataBase: {
     title: siteName,
     description: description,
-    image: `${baseUrl}/logo/logo.png`,
+    image: `${baseUrl}/logo/logo_white.png`,
   } ,
   title: {
     default: siteName,
@@ -27,11 +27,11 @@ export const metadata = {
     site_name: siteName,
     title: siteName,
     description: description,
-    image: `${baseUrl}/logo/logo.png`,
+    image: `${baseUrl}/logo/logo_white.png`,
     cardtype: "summary_large_image",
     images: [
       {
-        url: `${baseUrl}/logo/logo.png`,
+        url: `${baseUrl}/logo/logo_white.png`,
         width: 1020,
         height: 1020,
         alt: siteName,
@@ -43,7 +43,7 @@ export const metadata = {
     site: "@KEISHO966",
     title: siteName,
     description: description,
-    image: `${baseUrl}/logo/logo.png`,
+    image: `${baseUrl}/logo/logo_white.png`,
     creator: "@KEISHO966",
   },
 };
