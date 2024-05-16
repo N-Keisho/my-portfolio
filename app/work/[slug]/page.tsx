@@ -7,11 +7,7 @@ import IndexButton from "@/app/component/work/IndexButton/IndexButton";
 import Link from "next/link";
 
 const url = "https://n-keisho.com";
-export function generateMetadata({
-  params,
-}: {
-  params: { slug: string };
-}) {
+export function generateMetadata({ params }: { params: { slug: string } }) {
   const work = WorksData.find((work) => work.id.toString() === params.slug);
   if (!work)
     return {
@@ -25,7 +21,7 @@ export function generateMetadata({
   return {
     title: work.title,
     description: work.description,
-    image:`${url}${work.thubmnail}`,
+    image: `${url}${work.thubmnail}`,
     openGraph: {
       title: work.title,
       description: work.description,
@@ -57,22 +53,26 @@ const Page = ({ params }: { params: { slug: string } }) => {
     <>
       <HeadersWork />
       <div className={styles.container}>
-        <Link href={work.links[0].url} target="_blank" className={styles.imageLink}>
-        <Image
-          src={ears}
-          alt="ears"
-          className={styles.ears}
-          width={100}
-          height={100}
-        />
-        <Image
-          src={work.thubmnail}
-          alt={work.title}
-          className={styles.image}
-          layout="responsive"
-          width={200}
-          height={200}
-        />
+        <Link
+          href={work.links[0].url}
+          target="_blank"
+          className={styles.imageLink}
+        >
+          <Image
+            src={ears}
+            alt="ears"
+            className={styles.ears}
+            width={100}
+            height={100}
+          />
+          <Image
+            src={work.thubmnail}
+            alt={work.title}
+            className={styles.image}
+            layout="responsive"
+            width={200}
+            height={200}
+          />
         </Link>
         <div className={styles.div}>
           <h1>{work.title}</h1>
