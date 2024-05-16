@@ -10,8 +10,7 @@ const HeaderWork = () => {
             src={"/logo/logo.png"}
             alt="Logo"
             sizes="(max-width: 70px) 10vw"
-            width={60}
-            height={60}
+            fill
           />
         </Link>
       </nav>

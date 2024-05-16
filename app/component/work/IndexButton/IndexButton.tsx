@@ -10,8 +10,8 @@ const IndexButton = ({ index, length }: { index: number; length: number }) => {
           src="/piskel/arrow.png"
           alt="Left Arrow"
           className={styles.left_arrow}
-          width={30}
-          height={30}
+          width={50}
+          height={50}
         />
       </Link>
       <div className={styles.index}>
@@ -22,8 +22,8 @@ const IndexButton = ({ index, length }: { index: number; length: number }) => {
           src="/piskel/arrow.png"
           alt="Right Arrow"
           className={styles.right_arrow}
-          width={30}
-          height={30}
+          width={50}
+          height={50}
         />
       </Link>
     </div>
