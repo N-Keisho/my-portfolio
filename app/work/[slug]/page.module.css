@@ -43,62 +43,6 @@
     text-indent: 1em;
 }
 
-.explanation {
-    display: flex;
-    margin-top: 10px;
-    margin-bottom: 20px;
-}
-
-.keys {
-    margin-top: 0.5rem;
-    text-align: right;
-}
-
-.keys p {
-    margin-top: 5px;
-    padding: 0;
-}
-
-.values {
-    margin-top: 0.5rem;
-    text-align: left;
-}
-
-.values p {
-    margin-top: 5px;
-    padding: 0;
-    text-indent: 1em;
-}
-
-.set {
-    display: flex;
-}
-
-.set p {
-    margin-top: 1rem;
-    padding: 0;
-}
-
-.key_p {
-    margin-top: 1rem;
-    padding: 0;
-    text-indent: 0.5em;
-    width: 80px;
-    text-align: right;
-}
-
-.value_p {
-    margin-top: 1rem;
-    padding: 0;
-    text-indent: 0.5em;
-}
-
 @media (max-width: 768px) {
-    .key_p{
-        font-size: 0.8rem;
-    }
-
-    .value_p{
-        font-size: 0.8rem;
-    }
+    
 }

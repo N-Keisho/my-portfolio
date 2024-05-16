@@ -1,0 +1,34 @@
+.indexButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.link {
+    margin: 0;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+}
+
+.link:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.left_arrow {
+    rotate: 90deg;
+}
+
+.right_arrow {
+    rotate: -90deg;
+}
+
+.index {
+    margin: 30px;
+}
+
+.hidden {
+    visibility: hidden;
+}

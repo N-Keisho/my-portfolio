@@ -2,7 +2,7 @@ import {Work} from '@/types/work';
 
 const Work2: Work = {
     id: 2,
-    title: 'テスト2',
+    title: 'テスト1',
     thubmnail: '/works/1.png',
     created_at: '2024-05-15',
     tag: ['個人作成'],
