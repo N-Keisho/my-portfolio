@@ -9,7 +9,8 @@
 //   description: `
 
 //   `,
-//   period: "",
+//   season: "",
+//   creation_time: "",
 //   tech: [],
 //   links: [
 //     {

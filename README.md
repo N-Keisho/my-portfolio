@@ -17,14 +17,16 @@
 - Figma : https://www.figma.com/file/a51uDrI2zHd9pGW0V8Nx2M/%E3%83%9D%E3%83%BC%E3%83%88%E3%83%95%E3%82%A9%E3%83%AA%E3%82%AA?type=design&node-id=0%3A1&mode=design&t=6TlX2k288LNq7SSs-1
 
 ## データ追加時
+
 - Work_.tsがテンプレート
 - public/worksに画像を正方形でトリミングして保存
 - Works.tsにWorkを追加する
 
 ## 耳追加時
+
 - 縦：横が1:2となるようにする
 - piskel/earsに保存する
-- Works.tsxとworks/[slug]/page.tsxのears_lengthを更新する
+- WorkCard.tsxとworks/[slug]/page.tsxのears_lengthを更新する
 
 ## Table
 
@@ -36,7 +38,7 @@
 - created_at : string
 - tag : string[]
 - description : string
-- period : string
+- creation_time : string
 - tech : stirng[]
 - links : link[]
   - Github, Figma, Deployment

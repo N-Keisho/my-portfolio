@@ -12,7 +12,8 @@ PowerPointは拡張子をzipに変更することで中身を見ることがで�
 その音声ファイルをffmpegを用いて倍速編集して，zipに戻すことで，音声のみを倍速再生することができます．
 学生生活の中で間違いなく一番役立ったツールです．
   `,
-  period: "1週間",
+  season: "大学1年生の10月頃",
+  creation_time: "1週間",
   tech: ["Python", "ffmpeg"],
   links: [
     {

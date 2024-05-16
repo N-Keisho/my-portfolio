@@ -14,7 +14,8 @@ const Work12: Work = {
 過去にないほど多くのメンバーで作成したため，その難しさと面白さを実感できるよい経験となりました．
 まだUniryRoomに公開できていませんが，いつか公開できるようにしたいです．
   `,
-  period: "1ヶ月",
+  season: "大学2年生の3月",
+  creation_time: "1ヶ月",
   tech: ["Unity", "MagicaVoxel", "C#", "Blender"],
   links: [
     {

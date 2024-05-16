@@ -12,7 +12,8 @@ const Work14: Work = {
 特にテストケースの作成や，Module CSSの使い方は，今後の開発に活かしていきたいです．
 この経験を糧に再受験に向けて，もっとつよつよになります．
   `,
-  period: "1週間",
+  season: "大学3年生の5月",
+  creation_time: "1週間",
   tech: ["Next.js", "ModuleCSS"],
   links: [
     {

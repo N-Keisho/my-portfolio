@@ -14,7 +14,8 @@ const Work15: Work = {
 デザインがお気に入りで，非常に満足感のある仕上がりとなりました．
 今後もよいアイディアが浮かんだ際には更新して，魅力的なサイトにしていきたいです．
   `,
-  period: "5日間",
+  season: "大学3年生の5月",
+  creation_time: "5日間",
   tech: ["Next.js", "TypeScript", "Vercel"],
   links: [
     {

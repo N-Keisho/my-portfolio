@@ -14,7 +14,8 @@ LEDの点灯アニメーションを作成する際，Arduinoのメモリ容量�
 なかなかの力作ですが，実際に工作できていないのが心残りです．
 いつか作りたいです．
   `,
-  period: "2週間",
+  season: "大学2年生の8月",
+  creation_time: "2週間",
   tech: ["Arduino", "Unity", "C#"],
   links: [
     {

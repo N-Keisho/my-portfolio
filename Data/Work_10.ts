@@ -13,7 +13,8 @@ const Work10: Work = {
 最近流行りの左右にスワップする機能を作ってみたかったというのもあります．
 流行語大賞はPythonにてスクレイピングして取得しています．
   `,
-  period: "5日間",
+  season: "大学2年生の1月",
+  creation_time: "5日間",
   tech: ["Java"],
   links: [
     {

@@ -14,7 +14,8 @@ Open Hack U 2024 Tokyoで作成したWebアプリケーションです．
 仲間に助けられながら，3週間で完成させることができました．
 現在はバックエンドが料金の関係で動いていないので見た目だけになっています．
   `,
-  period: "3週間",
+  season: "大学2年生の2月",
+  creation_time: "3週間",
   tech: ["Next.js", "Django", "PostgreSQL"],
   links: [
     {

@@ -5,7 +5,8 @@ export interface Work {
     created_at: string,
     tag: string[],
     description: string,
-    period: string,
+    season: string,
+    creation_time: string,
     tech:string[],
     links: Link[]
 }
