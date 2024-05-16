@@ -24,16 +24,16 @@ export function generateMetadata({
   return {
     title: work.title,
     description: work.description,
-    image: `${url}/work.thubmnail`,
+    image:`${url}${work.thubmnail}`,
     openGraph: {
       title: work.title,
       description: work.description,
-      image: `${url}/work.thubmnail`,
+      image: `${url}${work.thubmnail}`,
     },
     twitter: {
       title: work.title,
       description: work.description,
-      image: `${url}/work.thubmnail`,
+      image: `${url}${work.thubmnail}`,
     },
   };
 }
