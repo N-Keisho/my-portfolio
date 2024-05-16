@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "./title.module.css";
+import styles from "./Title.module.css";
 
 const Title = () => {
   return (
