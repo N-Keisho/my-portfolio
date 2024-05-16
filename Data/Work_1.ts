@@ -2,10 +2,10 @@ import { Work } from "@/types/work";
 
 const Work1: Work = {
   id: 1,
-  title: "文化祭用ホームページ",
+  title: "高校のクラスの文化祭用HP",
   thubmnail: "/works/1.png",
-  created_at: "2024-05-15",
-  tag: ["個人作成", "文化祭"],
+  created_at: "2024-05-16",
+  tag: ["個人製作", "文化祭"],
   description: `
   高校生時代に作成した，私の原点となるホームページです．
   当時はプログラミングなどを勉強したことがなく，様々なサイトを参照しながら必死に作成しました．

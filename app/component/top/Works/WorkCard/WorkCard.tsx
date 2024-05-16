@@ -4,7 +4,7 @@ import styles from "./WorkCard.module.css";
 import Link from "next/link";
 
 const WorkCard = ({ work }: { work: Work }) => {
-  const ears = `/piskel/ears/ears_${work.id}.png`;
+  const ears = `/piskel/ears/ears_${work.id%4+1}.png`;
   return (
     <Link href={`/work/${work.id}`} legacyBehavior>
       <div className={styles.container}>
@@ -24,16 +24,24 @@ const WorkCard = ({ work }: { work: Work }) => {
         />
         <div className={styles.centence}>
           <h3>{work.title}</h3>
-          {work.tag.map((t) => (
-            <span key={t} className={styles.tag}>
-              {`${t} `} 
-            </span>
-          ))}
-          {work.tech.map((t) => (
-            <span key={t} className={styles.tag}>
-              {`${t} `} 
-            </span>
-          ))}
+          {work.tag.map((t,i) => {
+            if(i < 1) {
+              return (
+                <span key={t} className={styles.tag}>
+                  {`${t} `} 
+                </span>
+              );
+            }
+          })}
+          {work.tech.map((t, i) => {
+            if (i < 2) {
+              return (
+                <span key={t} className={styles.tech}>
+                  {`${t} `}
+                </span>
+              );
+            }
+          })}
         </div>
       </div>
     </Link>

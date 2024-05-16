@@ -47,7 +47,7 @@ const Page = ({ params }: { params: { slug: string } }) => {
   const work = WorksData.find((work) => work.id.toString() === params.slug);
   const length = WorksData.length;
   if (!work) return { notFound: true };
-  const ears = `/piskel/ears/ears_${work.id}.png`;
+  const ears = `/piskel/ears/ears_${work.id%4+1}.png`;
 
   return (
     <>
