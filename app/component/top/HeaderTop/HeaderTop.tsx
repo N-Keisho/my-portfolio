@@ -36,7 +36,7 @@ const MobileNavigation = () => {
 
   return (
     <div className={styles.mobileNav} onClick={toggleMenu}>
-      <DehazeIcon style={{ fontSize: "35px" }} />
+      <DehazeIcon style={{ fontSize: "50px" }} />
       <MobileMenu isOpened={isOpened} toggleMenu={toggleMenu} />
     </div>
   );
