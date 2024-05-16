@@ -24,7 +24,16 @@ const WorkCard = ({ work }: { work: Work }) => {
         />
         <div className={styles.centence}>
           <h3>{work.title}</h3>
-          <p>{work.tag}</p>
+          {work.tag.map((t) => (
+            <span key={t} className={styles.tag}>
+              {`${t} `} 
+            </span>
+          ))}
+          {work.tech.map((t) => (
+            <span key={t} className={styles.tag}>
+              {`${t} `} 
+            </span>
+          ))}
         </div>
       </div>
     </Link>

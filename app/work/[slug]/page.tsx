@@ -73,7 +73,6 @@ const Page = ({ params }: { params: { slug: string } }) => {
         />
         <div className={styles.div}>
           <h1>{work.title}</h1>
-          <p className={styles.tag}>{work.tag}</p>
           <p className={styles.description}>{work.description}</p>
           <Explanation work={work} />
         </div>
