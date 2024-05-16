@@ -4,6 +4,7 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import Explanation from "@/app/component/work/Explanation/Explanation";
 import IndexButton from "@/app/component/work/IndexButton/IndexButton";
+import Link from "next/link";
 
 const url = "https://n-keisho.com";
 export function generateMetadata({
@@ -56,6 +57,7 @@ const Page = ({ params }: { params: { slug: string } }) => {
     <>
       <HeadersWork />
       <div className={styles.container}>
+        <Link href={work.links[0].url} target="_blank" className={styles.imageLink}>
         <Image
           src={ears}
           alt="ears"
@@ -71,6 +73,7 @@ const Page = ({ params }: { params: { slug: string } }) => {
           width={200}
           height={200}
         />
+        </Link>
         <div className={styles.div}>
           <h1>{work.title}</h1>
           <p className={styles.description}>{work.description}</p>
