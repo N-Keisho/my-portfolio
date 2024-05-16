@@ -5,6 +5,39 @@ import styles from "./page.module.css";
 import Explanation from "@/app/component/work/Explanation/Explanation";
 import IndexButton from "@/app/component/work/IndexButton/IndexButton";
 
+const url = "https://n-keisho.com";
+export function generateMetadata({
+  params,
+}: {
+  params: { slug: string };
+}) {
+  const work = WorksData.find((work) => work.id.toString() === params.slug);
+  if (!work)
+    return {
+      title: "ページが見つかりません",
+      description: "ページが見つかりません",
+      openGraph: {
+        images: [`${url}/logo/logo.png`],
+      },
+    };
+
+  return {
+    title: work.title,
+    description: work.description,
+    image: work.thubmnail,
+    openGraph: {
+      title: work.title,
+      description: work.description,
+      image: work.thubmnail,
+    },
+    twitter: {
+      title: work.title,
+      description: work.description,
+      image: work.thubmnail,
+    },
+  };
+}
+
 export function generateStaticParams() {
   return WorksData.map((work) => {
     return {
