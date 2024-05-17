@@ -8,8 +8,9 @@ const HeaderWork = () => {
         <Link href="/#works">
           <Image
             src={"/logo/logo.png"}
-            alt="Logo"
+            alt="Top"
             sizes="(max-width: 70px) 10vw"
+            className={styles.image}
             fill
           />
         </Link>

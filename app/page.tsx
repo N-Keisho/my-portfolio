@@ -14,7 +14,7 @@ export default function Home() {
 
   return (
     <div className={styles.container}>
-      <HeaderTop />
+      {/* <HeaderTop /> */}
       <Title />
       <Arrow />
       <About />

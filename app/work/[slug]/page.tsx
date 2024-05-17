@@ -52,7 +52,7 @@ const Page = ({ params }: { params: { slug: string } }) => {
 
   return (
     <>
-      <HeadersWork />
+      {/* <HeadersWork /> */}
       <div className={styles.container}>
         <Link
           href={work.links[0].url}

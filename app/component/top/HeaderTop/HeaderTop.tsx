@@ -21,11 +21,11 @@ export default HeaderTop;
 const DefaultNavigation = () => {
   return (
     <div className={styles.defaultNav}>
-      <a href="#top">Top</a>
-      <a href="#about">About</a>
-      <a href="#works">Works</a>
-      <a href="#skills">Skills</a>
-      <a href="#contact">Contact</a>
+      <a href="/#top">Top</a>
+      <a href="/#about">About</a>
+      <a href="/#works">Works</a>
+      <a href="/#skills">Skills</a>
+      <a href="/#contact">Contact</a>
     </div>
   );
 };
@@ -36,7 +36,8 @@ const MobileNavigation = () => {
 
   return (
     <div className={styles.mobileNav} onClick={toggleMenu}>
-      <DehazeIcon style={{ fontSize: "50px" }} />
+      {/* <DehazeIcon style={{ fontSize: "50px" }} /> */}
+      <Image src={"/logo/logo_black.png"} alt="Logo" width={50} height={50} />
       <MobileMenu isOpened={isOpened} toggleMenu={toggleMenu} />
     </div>
   );
@@ -54,19 +55,19 @@ const MobileMenu = ({
       <div className={styles.mobileMenu}>
         <Image src={"/logo/logo_black.png"} alt="Logo" width={70} height={70} />
         <div>
-          <a href="#top">Top</a>
+          <a href="/#top">Top</a>
         </div>
         <div>
-          <a href="#about">About</a>
+          <a href="/#about">About</a>
         </div>
         <div>
-          <a href="#works">Works</a>
+          <a href="/#works">Works</a>
         </div>
         <div>
-          <a href="#skills">Skills</a>
+          <a href="/#skills">Skills</a>
         </div>
         <div>
-          <a href="#contact">Contact</a>
+          <a href="/#contact">Contact</a>
         </div>
       </div>
     </Drawer>

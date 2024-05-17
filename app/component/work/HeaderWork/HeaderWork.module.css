@@ -3,6 +3,13 @@
     top: 0;
     width: 100px;
     height: 100px;
+    /* mix-blend-mode: difference; */
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 @media screen and (max-width: 768px){

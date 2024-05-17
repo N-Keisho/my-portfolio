@@ -1,6 +1,7 @@
 import { DotGothic16 } from "next/font/google";
 import "./globals.css";
 import Footer from "./component/base/Footer/Footer";
+import HeaderTop from "./component/top/HeaderTop/HeaderTop";
 
 const dotGothic16 = DotGothic16({ weight: "400", subsets: ["latin"] });
 
@@ -56,6 +57,7 @@ export default function RootLayout({
   return (
     <html lang="jp">
       <body className={dotGothic16.className}>
+        <HeaderTop />
         <main>{children}</main>
         <Footer />
       </body>
