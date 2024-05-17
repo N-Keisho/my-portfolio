@@ -5,7 +5,7 @@ const Work13: Work = {
   title: "工学院ハッカソンHP",
   thubmnail: "/works/13.png",
   created_at: "2024-05-15",
-  tag: ["個人作成"],
+  tag: ["個人製作"],
   description: `
 私が中心となって活動している工学院ハッカソンのホームページです．
 ハッカソンの概要やスケジュール，イベントの詳細などを掲載しています．
