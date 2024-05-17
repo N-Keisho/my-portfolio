@@ -3,7 +3,7 @@ import Image from "next/image";
 import styles from "./WorkCard.module.css";
 import Link from "next/link";
 
-const ears_length = 6;
+const ears_length = 8;
 const WorkCard = ({ work }: { work: Work }) => {
   const ears = `/piskel/ears/ears_${work.id%ears_length}.png`;
   return (

@@ -7,7 +7,7 @@ import IndexButton from "@/app/component/work/IndexButton/IndexButton";
 import Link from "next/link";
 
 const url = "https://n-keisho.com";
-const ears_length = 6;
+const ears_length = 8;
 export function generateMetadata({ params }: { params: { slug: string } }) {
   const work = WorksData.find((work) => work.id.toString() === params.slug);
   if (!work)
