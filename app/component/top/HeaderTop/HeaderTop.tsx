@@ -4,10 +4,35 @@ import { useState } from "react";
 import DehazeIcon from "@mui/icons-material/Dehaze";
 import { Drawer } from "@mui/material";
 import Image from "next/image";
+import { useEffect } from "react";
+import { usePathname } from "next/navigation";
 
 const HeaderTop = () => {
+  const [showHeader, setShowHeader] = useState(false);
+  const path = usePathname();
+
+  useEffect(() => {
+    if(path === "/") {
+    const handleScroll = () => {
+      if (window.scrollY > 100) {
+        setShowHeader(true);
+      } else {
+        setShowHeader(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }else {
+    setShowHeader(true);
+  }
+  }, [path]);
+
   return (
-    <header className={styles.header}>
+    <header className={`${styles.header} ${showHeader ? styles.show : styles.unshow}`}>
       <nav>
         <DefaultNavigation />
         <MobileNavigation />

@@ -26,7 +26,7 @@ const ToTop = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 200) {
+      if (window.scrollY > 100) {
         setShowToTop(true);
       } else {
         setShowToTop(false);
