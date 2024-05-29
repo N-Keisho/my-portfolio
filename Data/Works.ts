@@ -14,6 +14,9 @@ import Work12 from './Work_12';
 import Work13 from './Work_13';
 import Work14 from './Work_14';
 import Work15 from './Work_15';
+import Work16 from './Work_16';
+import Work17 from './Work_17';
+
 
 const Works: Work[] = [
     Work1,
@@ -31,6 +34,8 @@ const Works: Work[] = [
     Work13,
     Work14,
     Work15,
+    Work16,
+    Work17,
 ];
 
 export default Works;

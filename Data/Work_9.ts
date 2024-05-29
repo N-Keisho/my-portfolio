@@ -2,23 +2,23 @@ import { Work } from "@/types/work";
 
 const Work9: Work = {
   id: 9,
-  title: "家族用LINEBot",
+  title: "Idova",
   thubmnail: "/works/9.png",
   created_at: "2024-05-16",
-  tag: ["個人製作", "家族"],
+  tag: ["チーム製作", "ハッカソン"],
   description: `
-家族のために作成したLINEBotです．
-スケジュールをGoogleFormで入力すると，LINEBotがGoogleSpreadSheetからデータを取得し，家族全員に通知を送ります．
-また献立の登録を行うと必要な食材をリストアップしてくれる機能もあります．
-家族の普段の生活をより便利にするためにはどのようにしたらよいかを考え，全員にヒアリングを行い，実装しました．
+NRIハッカソン2023で作成した，地図型SNSです．
+コンセプトは「昔懐かしい井戸端会議！大田区に住んでいる人，訪れた人みんなで井戸端会議をしちゃおう！」です．
+ピンの近くに行くことで投稿の閲覧と書き込みができるようになっており，ミチ<道, 未知>との遭遇を楽しめたり、ローカルな場所での消費を促したりする，真の意味での地域密着型SNSを目指しました．
+初めての本格的なハッカソンということもあり，多くのことを学べた3日間でした．
   `,
-  season: "大学2年生の12月",
-  creation_time: "2週間",
-  tech: ["GAS", "LINEBot"],
+  season: "大学2年生の11月",
+  creation_time: "3日間",
+  tech: ["Next.js"],
   links: [
     {
-      name: "GitHub",
-      url: "https://github.com/N-Keisho/LINEBotforFamily",
+      name: "ProtoPedia",
+      url: "https://protopedia.net/prototype/4868",
     },
   ],
 };

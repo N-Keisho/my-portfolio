@@ -2,35 +2,26 @@ import { Work } from "@/types/work";
 
 const Work13: Work = {
   id: 13,
-  title: "工学院ハッカソンHP",
+  title: "卒業メンターに贈るゲーム",
   thubmnail: "/works/13.png",
-  created_at: "2024-05-15",
-  tag: ["個人製作"],
+  created_at: "2024-05-16",
+  tag: ["チーム製作", "アルバイト"],
   description: `
-私が中心となって活動している工学院ハッカソンのホームページです．
-ハッカソンの概要やスケジュール，イベントの詳細などを掲載しています．
-フロントエンドのデザインから設計，実装までを一貫して一人で行った初めてのプロジェクトです．
-Next.jsを用いてSSGを行い，高速なページ遷移を実現しています．
-バックエンドはハッカソンの運営メンバーにお願いし，Golangで実装してもらいました．
-バグや改善点が多発し，困難な部分も多かったですが，それを乗り越えて完成させることができました．
-これからもよりよいホームページになるよう更新していきたいと考えています．
+アルバイト先の卒業生に感謝の気持ちを込めて作成したゲームです．
+卒業生が全員登場し，それぞれの特徴を生かしたステージをクリアしていくゲームに仕上がりました．
+私はアイディア出し（原案）と，最終バトルのシーンを担当しています．
+教室のメンバー全員（総勢19名）で協力して作成しました．
+過去にないほど多くのメンバーで作成したため，その難しさと面白さを実感できるよい経験となりました．
+まだUniryRoomに公開できていませんが，いつか公開できるようにしたいです．
   `,
-  season: "大学3年生の4月",
-  creation_time: "2週間",
-  tech: ["Next.js", "Figma"],
+  season: "大学2年生の3月",
+  creation_time: "1ヶ月",
+  tech: ["Unity", "MagicaVoxel", "C#", "Blender"],
   links: [
     {
-      name: "Deploy",
-      url: "https://hackathon.kogcoder.com/",
-    },
-    {
       name: "GitHub",
-      url: "https://github.com/N-Keisho/kogakuin-hackathon-homepage",
+      url: "https://github.com/N-Keisho/ForGraduate2024_Games",
     },
-    {
-        name: "Figma",
-        url: "https://www.figma.com/design/X37QP7eZzdiOPszBcIExbq/KogakuinHackathon?node-id=0%3A1&t=QD34T1iVgC8nFmAi-1",
-    }
   ],
 };
 

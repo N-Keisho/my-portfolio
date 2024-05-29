@@ -2,25 +2,33 @@ import { Work } from "@/types/work";
 
 const Work12: Work = {
   id: 12,
-  title: "卒業メンターに贈るゲーム",
+  title: "PAREO",
   thubmnail: "/works/12.png",
-  created_at: "2024-05-16",
-  tag: ["チーム製作", "アルバイト"],
+  created_at: "2024-05-15",
+  tag: ["チーム製作", "ハッカソン"],
   description: `
-アルバイト先の卒業生に感謝の気持ちを込めて作成したゲームです．
-卒業生が全員登場し，それぞれの特徴を生かしたステージをクリアしていくゲームに仕上がりました．
-私はアイディア出し（原案）と，最終バトルのシーンを担当しています．
-教室のメンバー全員（総勢19名）で協力して作成しました．
-過去にないほど多くのメンバーで作成したため，その難しさと面白さを実感できるよい経験となりました．
-まだUniryRoomに公開できていませんが，いつか公開できるようにしたいです．
+Open Hack U 2024 Tokyoで作成したWebアプリケーションです．
+「個人に最適化されたレビューサイト」をコンセプトに，ユーザの好みを学習し，最適なお店をお勧めしてくれるようになっています．
+ユーザはレビューをすればするほど，趣向が分析され，より適切なお店が提案されるようになります．
+私はフロントエンジニアとして，Next.jsを用いて開発を行いました．
+仲間に助けられながら，3週間で完成させることができました．
+現在はバックエンドが料金の関係で動いていないので見た目だけになっています．
   `,
-  season: "大学2年生の3月",
-  creation_time: "1ヶ月",
-  tech: ["Unity", "MagicaVoxel", "C#", "Blender"],
+  season: "大学2年生の2月",
+  creation_time: "3週間",
+  tech: ["Next.js", "Django", "PostgreSQL"],
   links: [
     {
-      name: "GitHub",
-      url: "https://github.com/N-Keisho/ForGraduate2024_Games",
+      name: "Deploy",
+      url: "https://pareo.kogcoder.com/",
+    },
+    {
+      name: "Figma",
+      url: "https://www.figma.com/design/jlRkaOf3VOnSCNE6E4mNn3/HackU_UI%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8?node-id=0%3A1&t=Eq8A82rqmkkm7Nyt-1",
+    },
+    {
+      name: "Canva",
+      url: "https://www.canva.com/design/DAF9VgIZKq0/Eu3OKWdVy4GlGf0EA9bQPQ/edit?utm_content=DAF9VgIZKq0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
     },
   ],
 };

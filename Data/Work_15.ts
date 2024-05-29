@@ -2,33 +2,31 @@ import { Work } from "@/types/work";
 
 const Work15: Work = {
   id: 15,
-  title: "ポートフォリオサイト",
+  title: "総人口推移グラフ",
   thubmnail: "/works/15.png",
   created_at: "2024-05-16",
-  tag: ["個人製作", "ポートフォリオ"],
+  tag: ["個人製作", "ゆめみパスポート"],
   description: `
-今までに製作した作品を一覧できるようにしたいと思い，作成しました．
-サイトを作ることで，自分のスキルをアピールできると同時に，自分の成長を可視化できるようになりました．
-このサイトを作るうえで意識したのは，「一覧性」と「見やすさ」と「遊び心」です．
-ゆえにドットをモチーフにして，楽しく見やすいサイトを目指しました．
-デザインがお気に入りで，非常に満足感のある仕上がりとなりました．
-今後もよいアイディアが浮かんだ際には更新して，魅力を高めていきたいです．
+ゆめみパスポートのフロントエンド試験に応募するために作成した，都道府県別の総人口推移グラフのSPAです．
+試験には落ちてしまいましたが，制作の過程でフロントエンド開発の学びが深まり，フィードバックをもらたったことで，より良いものを作るためのヒントを得ることができました．
+特にテストケースの作成や，Module CSSの使い方は，今後の開発に活かしていきたいです．
+この経験を糧に再受験に向けて，もっとつよつよになります．
   `,
   season: "大学3年生の5月",
-  creation_time: "5日間",
-  tech: ["Next.js", "TypeScript", "Vercel"],
+  creation_time: "1週間",
+  tech: ["Next.js", "ModuleCSS"],
   links: [
     {
       name: "Deploy",
-      url: "https://www.n-keisho.com/",
+      url: "https://yumemi-pass.n-keisho.com/",
     },
     {
       name: "GitHub",
-      url: "https://github.com/N-Keisho/my-portfolio",
+      url: "https://github.com/N-Keisho/yumemi-pass-front",
     },
     {
         name: "Figma",
-        url: "https://www.figma.com/design/a51uDrI2zHd9pGW0V8Nx2M/%E3%83%9D%E3%83%BC%E3%83%88%E3%83%95%E3%82%A9%E3%83%AA%E3%82%AA?t=kTi7nxfTvtnw87VL-1"
+        url: "https://www.figma.com/design/oWWVrEPukLptsYWheyMp1l/%E3%82%86%E3%82%81%E3%81%BF%E3%83%91%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%88?node-id=0%3A1&t=kTi7nxfTvtnw87VL-1"
     }
   ],
 };

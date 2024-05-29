@@ -1,27 +1,36 @@
-// import { Work } from "@/types/work";
+import { Work } from "@/types/work";
 
-// const Work00: Work = {
-//   id: 00,
-//   title: "",
-//   thubmnail: "/works/00.png",
-//   created_at: "2024-05-15",
-//   tag: ["", ""],
-//   description: `
+const Work16: Work = {
+  id: 16,
+  title: "ポートフォリオサイト",
+  thubmnail: "/works/16.png",
+  created_at: "2024-05-16",
+  tag: ["個人製作", "ポートフォリオ"],
+  description: `
+今までに製作した作品を一覧できるようにしたいと思い，作成しました．
+サイトを作ることで，自分のスキルをアピールできると同時に，自分の成長を可視化できるようになりました．
+このサイトを作るうえで意識したのは，「一覧性」と「見やすさ」と「遊び心」です．
+ゆえにドットをモチーフにして，楽しく見やすいサイトを目指しました．
+デザインがお気に入りで，非常に満足感のある仕上がりとなりました．
+今後もよいアイディアが浮かんだ際には更新して，魅力を高めていきたいです．
+  `,
+  season: "大学3年生の5月",
+  creation_time: "5日間",
+  tech: ["Next.js", "TypeScript", "Vercel"],
+  links: [
+    {
+      name: "Deploy",
+      url: "https://www.n-keisho.com/",
+    },
+    {
+      name: "GitHub",
+      url: "https://github.com/N-Keisho/my-portfolio",
+    },
+    {
+        name: "Figma",
+        url: "https://www.figma.com/design/a51uDrI2zHd9pGW0V8Nx2M/%E3%83%9D%E3%83%BC%E3%83%88%E3%83%95%E3%82%A9%E3%83%AA%E3%82%AA?t=kTi7nxfTvtnw87VL-1"
+    }
+  ],
+};
 
-//   `,
-//   season: "",
-//   creation_time: "",
-//   tech: [],
-//   links: [
-//     {
-//       name: "Deploy",
-//       url: "",
-//     },
-//     {
-//       name: "GitHub",
-//       url: "",
-//     },
-//   ],
-// };
-
-// export default Work00;
+export default Work16;
